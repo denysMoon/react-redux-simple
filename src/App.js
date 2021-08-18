@@ -1,13 +1,14 @@
 import './App.css';
 
-import { useSelector, useDispatch } from 'react-redux';
+import Display from './components/Display/Display'
+
+import { useDispatch } from 'react-redux';
 import { fetchData } from './redux/action'
 
 import { useEffect } from 'react';
 
 
 function App() {
-  const data = useSelector(state=>state.joke)
 
   const dispatch = useDispatch()
 
@@ -21,8 +22,12 @@ function App() {
 
   return (
     <div className="App">
-      <button onClick={onClick}>gg</button>
-      {JSON.stringify(data)}
+      <div className="container">
+        <Display />
+        <button onClick={onClick}>
+          More
+        </button>
+      </div>
     </div>
   );
 }
