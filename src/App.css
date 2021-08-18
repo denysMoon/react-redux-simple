@@ -39,6 +39,14 @@ button{
   border-radius: 5px;
   border: 2px solid white;
   position: relative;
-  top: 130px;
+  top: 140px;
   background: lightgray;
+  -webkit-box-shadow: 41px 69px 9px 5px rgba(34, 60, 80, 0.6);
+  -moz-box-shadow: 41px 69px 9px 5px rgba(34, 60, 80, 0.6);
+  box-shadow: 41px 69px 9px 5px rgba(34, 60, 80, 0.6);
+}
+.box{
+  -webkit-box-shadow: 41px 69px 9px 5px rgba(34, 60, 80, 0.6);
+  -moz-box-shadow: 41px 69px 9px 5px rgba(34, 60, 80, 0.6);
+  box-shadow: 41px 69px 9px 5px rgba(34, 60, 80, 0.6);
 }
