@@ -44,6 +44,7 @@ button{
   -webkit-box-shadow: 41px 69px 9px 5px rgba(34, 60, 80, 0.6);
   -moz-box-shadow: 41px 69px 9px 5px rgba(34, 60, 80, 0.6);
   box-shadow: 41px 69px 9px 5px rgba(34, 60, 80, 0.6);
+  cursor: pointer;
 }
 .box{
   -webkit-box-shadow: 41px 69px 9px 5px rgba(34, 60, 80, 0.6);
