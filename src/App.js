@@ -12,10 +12,6 @@ function App() {
 
   const dispatch = useDispatch()
 
-  const onClick = () =>{
-    dispatch(fetchData())
-  }
-
   useEffect(()=>{
     dispatch(fetchData())
   }, [])
@@ -24,9 +20,6 @@ function App() {
     <div className="App">
       <div className="container">
         <Display />
-        <button onClick={onClick}>
-          More
-        </button>
       </div>
     </div>
   );

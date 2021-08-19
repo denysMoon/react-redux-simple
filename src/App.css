@@ -15,17 +15,18 @@
   position: fixed;
   bottom: 200px;
   width: 70%;
-  border-bottom: 2px solid black;
+  display: flex;
+  align-items: flex-end;
+  flex-direction: column;
+}
+.box p{
+  width: 100%;
+  text-align: start;
 }
 .joke{
   display: flex;
   background: lightgray;
   border-radius: 5px;
-}
-.joke p{
-  display: flex;
-  align-items: center;
-  padding-right: 10px;
 }
 .joke img{
   position: relative;
@@ -38,8 +39,8 @@ button{
   height: 50px;
   border-radius: 5px;
   border: 2px solid white;
-  position: relative;
-  top: 140px;
+  position: absolute;
+  bottom: -40px;
   background: lightgray;
   -webkit-box-shadow: 41px 69px 9px 5px rgba(34, 60, 80, 0.6);
   -moz-box-shadow: 41px 69px 9px 5px rgba(34, 60, 80, 0.6);
@@ -50,4 +51,10 @@ button{
   -webkit-box-shadow: 41px 69px 9px 5px rgba(34, 60, 80, 0.6);
   -moz-box-shadow: 41px 69px 9px 5px rgba(34, 60, 80, 0.6);
   box-shadow: 41px 69px 9px 5px rgba(34, 60, 80, 0.6);
+}
+.icon-like{
+  width: 30px;
+  height: 30px;
+  margin-right: 50px;
+  margin-bottom: 10px;
 }
